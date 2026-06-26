@@ -1,0 +1,14 @@
+# Netlify config — proxy /api/* to your bot-hosting server
+# Replace fi10.bot-hosting.net:2048 if your URL changes
+
+[[redirects]]
+  from = "/api/myai/*"
+  to = "http://fi12.bot-hosting.net:20405/api/myai/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ping"
+  to = "http://fi12.bot-hosting.net:20405/ping"
+  status = 200
+  force = true
