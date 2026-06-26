@@ -3,12 +3,12 @@
 
 [[redirects]]
   from = "/api/myai/*"
-  to = "http://fi12.bot-hosting.net:20405/api/myai/:splat"
+  to = "http://fi12.bot-hosting.cloud:20405/api/myai/:splat"
   status = 200
   force = true
 
 [[redirects]]
   from = "/ping"
-  to = "http://fi12.bot-hosting.net:20405/ping"
+  to = "http://fi12.bot-hosting.cloud:20405/ping"
   status = 200
   force = true
